@@ -32,10 +32,10 @@ class Garrafa {
 }
 
 public class Main {
-public static void main(String[] args) {
-        Garrafa minha_garrafa = new Garrafa();
-        minha_garrafa.Abrir();
-        minha_garrafa.Tomar();
-        minha_garrafa.Fechar();
-    }
+    public static void main(String[] args) {
+            Garrafa minha_garrafa = new Garrafa();
+            minha_garrafa.Abrir();
+            minha_garrafa.Tomar();
+            minha_garrafa.Fechar();
+        }
 }
