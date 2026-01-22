@@ -10,7 +10,8 @@
 
 | #   |  📁  | POO    | 🔗                                                                                                                                                                                                                  |
 | --- | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | 📄  | Garrafa      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/src/Main.java)
+| 1   | 📄  | Garrafa      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/demo/src/main/java/com/example/garrafa/Main.java)
+| 2   | 📄  | Garrafa - Testes unitários (JUNIT)      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/demo/src/test/java/com/example/garrafa/GarrafaTest.java)
 
 ## 🚀 Como executar
 
