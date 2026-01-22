@@ -1,18 +1,18 @@
 class Garrafa {
 
-    boolean tampada = true;
-    double capacidade = 100;
+    private boolean tampada = true;
+    private double capacidade = 100;
 
-    void Abrir () {
+    void abrir () {
         if (!tampada) {
             System.out.println("A garrafa já está aberta.");
         } else {
             System.out.println("Garrafa aberta.");
             tampada = false;
-        }
+        } 
     }
 
-    void Fechar() {
+    void fechar() {
         if (tampada) {
             System.out.println("A garrafa já está fechada.");
         } else {
@@ -21,21 +21,25 @@ class Garrafa {
         }
     }
 
-    void Tomar() {
-        if (capacidade <= 1) {
-            System.out.println("Não há água na garrafa.");
-        } else {
-            System.out.println("Água tomada.");
-            capacidade --;
+        void tomar() {
+            if (!tampada) {
+                if (capacidade <= 0) {
+                    System.out.println("Não há água na garrafa.");
+                } else {
+                    System.out.println("Água tomada.");
+                    capacidade --;
+                }
+        }  else {
+            System.out.println("A garrafa está fechada");
         }
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-            Garrafa minha_garrafa = new Garrafa();
-            minha_garrafa.Abrir();
-            minha_garrafa.Tomar();
-            minha_garrafa.Fechar();
+            Garrafa minhaGarrafa = new Garrafa();
+            minhaGarrafa.abrir();
+            minhaGarrafa.tomar();
+            minhaGarrafa.fechar();
         }
 }
