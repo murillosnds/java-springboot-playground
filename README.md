@@ -4,7 +4,7 @@
 
 > 👨🏻‍💻 **Feito por: Murillo Sergio**
 
-⭐ Este repositório é focado exclusivamente no estudo da linguagem de programação `Java` e em seu principal framework, `SpringBoot`.
+⭐ Este repositório é focado exclusivamente no estudo da linguagem de programação `Java` e no seu principal framework, o `SpringBoot`.
 
 ![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
 
