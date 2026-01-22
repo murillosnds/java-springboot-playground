@@ -23,7 +23,7 @@ class Garrafa {
 
         void tomar() {
             if (!tampada) {
-                if (capacidade < 1) {
+                if (capacidade == 0) {
                     System.out.println("Não há água na garrafa.");
                 } else {
                     System.out.println("Água tomada.");
