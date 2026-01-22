@@ -22,16 +22,18 @@ class Garrafa {
     }
 
         void tomar() {
-            if (!tampada) {
-                if (capacidade == 0) {
-                    System.out.println("Não há água na garrafa.");
-                } else {
-                    System.out.println("Água tomada.");
-                    capacidade --;
-                }
-        }  else {
-            System.out.println("A garrafa está fechada");
+        if (tampada) {
+            System.out.println("A garrafa já está tampada.");
+            return;
         }
+
+        if (capacidade == 0) {
+            System.out.println("Não há água na garrafa.");
+            return;
+        }
+
+        System.out.println("Água tomada.");
+        capacidade--;
     }
 }
 
