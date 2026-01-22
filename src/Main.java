@@ -1,7 +1,7 @@
 class Garrafa {
 
     private boolean tampada = true;
-    private double capacidade = 100;
+    private int capacidade = 100;
 
     void abrir () {
         if (!tampada) {
