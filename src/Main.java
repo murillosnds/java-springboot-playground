@@ -3,6 +3,10 @@ class Garrafa {
     private boolean tampada;
     private int capacidade;
 
+    int getCapacidade() {
+    return capacidade;
+    }
+
     Garrafa() {
         tampada = true;
         capacidade = 100;
@@ -26,9 +30,9 @@ class Garrafa {
         }
     }
 
-        void tomar() {
+    void tomar() {
         if (tampada) {
-            System.out.println("A garrafa já está tampada.");
+            System.out.println("A garrafa está tampada.");
             return;
         }
 
@@ -40,6 +44,21 @@ class Garrafa {
         System.out.println("Água tomada.");
         capacidade--;
     }
+
+    void encher() {
+        if (tampada) {
+            System.out.println("A Garrafa está fechada");
+            return;
+        }
+
+        if (capacidade == 100) {
+            System.out.println("Garrafa está cheia.");
+            return;
+        }
+
+        System.out.println("Garrafa foi enchida.");
+        capacidade = 100;
+    }
 }
 
 public class Main {
@@ -47,6 +66,7 @@ public class Main {
             Garrafa minhaGarrafa = new Garrafa();
             minhaGarrafa.abrir();
             minhaGarrafa.tomar();
+            minhaGarrafa.encher();
             minhaGarrafa.fechar();
         }
 }
