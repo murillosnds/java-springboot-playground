@@ -1,3 +1,5 @@
+package com.example.garrafa;
+
 class Garrafa {
 
     private boolean tampada;

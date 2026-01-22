@@ -1,3 +1,4 @@
-lib/
+target/
 .vscode/
-bin/
+.DS_Store
+Thumbs.db
