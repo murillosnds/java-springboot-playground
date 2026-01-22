@@ -1,7 +1,12 @@
 class Garrafa {
 
-    private boolean tampada = true;
-    private int capacidade = 100;
+    private boolean tampada;
+    private int capacidade;
+
+    Garrafa() {
+        tampada = true;
+        capacidade = 100;
+    }
 
     void abrir () {
         if (!tampada) {
