@@ -1,18 +1,21 @@
-## Getting Started
+![Python Banner](https://i.imgur.com/wIaACX2.png)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# ☕🍃 Java and Spring Boot Playground 🔥
 
-## Folder Structure
+> 👨🏻‍💻 **Feito por: Murillo Sergio**
 
-The workspace contains two folders by default, where:
+⭐ Este repositório é focado exclusivamente no estudo da linguagem de programação `Java` e em seu principal framework, `SpringBoot`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| #   |  📁  | POO    | 🔗                                                                                                                                                                                                                  |
+| --- | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 📄  | Garrafa      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Como executar
 
-## Dependency Management
+1. Clone o repositório e abra a pasta do projeto:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/murillosnds/java-springboot-playground.git
+cd java-springboot-playground
