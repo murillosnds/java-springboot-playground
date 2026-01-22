@@ -7,6 +7,7 @@
 ⭐ Este repositório é focado exclusivamente no estudo da linguagem de programação `Java` e no seu principal framework, o `SpringBoot`.
 
 ![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
+![Junit Status](https://img.shields.io/badge/junit-passed-brightgreen)
 
 | #   |  📁  | POO    | 🔗                                                                                                                                                                                                                  |
 | --- | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
