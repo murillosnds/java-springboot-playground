@@ -17,19 +17,19 @@ class Garrafa {
     void abrir () {
         if (!tampada) {
             System.out.println("A garrafa já está aberta.");
-        } else {
+            return;
+        }
             System.out.println("Garrafa aberta.");
             tampada = false;
-        } 
-    }
+    } 
 
     void fechar() {
         if (tampada) {
             System.out.println("A garrafa já está fechada.");
-        } else {
+            return;
+        } 
             System.out.println("Garrafa fechada.");
             tampada = true;
-        }
     }
 
     void tomar() {
@@ -58,7 +58,7 @@ class Garrafa {
             return;
         }
 
-        System.out.println("Garrafa foi enchida.");
+        System.out.println("Garrafa enchida.");
         capacidade = 100;
     }
 }
@@ -70,5 +70,5 @@ public class Main {
             minhaGarrafa.tomar();
             minhaGarrafa.encher();
             minhaGarrafa.fechar();
-        }
+    }
 }
