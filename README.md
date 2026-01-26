@@ -4,10 +4,20 @@
 
 > 👨🏻‍💻 **Feito por: Murillo Sergio**
 
-⭐ Este repositório é focado exclusivamente no estudo da linguagem de programação `Java` e no seu principal framework, o `Spring Boot`.
-
 ![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
 ![Junit Status](https://img.shields.io/badge/junit-passed-brightgreen)
+
+## 📋 Objetivo do projeto 
+
+O objetivo deste projeto é apresentar códigos organizados e simples para estudantes de `Java`, `Spring Boot` e `Programação Orientada a Objetos (POO)`. Os códigos são testados com `JUnit 5` e seguem pelo menos um dos seguintes princípios: `S.O.L.I.D.`, `DRY`, `KISS` e `Clean Code`.
+
+## ⚙ Tech Stacks utilizadas:
+
+- **Java (versão 17 - 25)**;
+- **Spring Boot**;
+- **JUnit 5 (testes unitários)**.
+
+## 📊 Tabela de códigos desenvolvidos:
 
 | #   |  📁  | POO    | 🔗                                                                                                                                                                                                                  |
 | --- | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -21,3 +31,6 @@
 ```bash
 git clone https://github.com/murillosnds/java-springboot-playground.git
 cd java-springboot-playground
+```
+
+## ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
