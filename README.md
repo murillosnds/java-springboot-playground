@@ -33,4 +33,4 @@ git clone https://github.com/murillosnds/java-springboot-playground.git
 cd java-springboot-playground
 ```
 
-## ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+### ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
