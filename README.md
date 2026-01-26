@@ -34,3 +34,8 @@ cd java-springboot-playground
 ```
 
 ### ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+
+### 📄 Licença
+
+Este projeto está sob a licença MIT.  
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
