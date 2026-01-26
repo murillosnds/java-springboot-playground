@@ -10,7 +10,7 @@
 
 ## 📋 Objetivo do projeto 
 
-O objetivo deste projeto é apresentar códigos organizados e simples para estudantes de `Java`, `Spring Boot` e `Programação Orientada a Objetos (POO)`. Os códigos são testados com `JUnit 5` e seguem pelo menos um dos seguintes princípios: `S.O.L.I.D.`, `DRY`, `KISS` e `Clean Code`.
+O objetivo deste projeto é apresentar códigos organizados e simples para estudantes de `Java`, `Spring Boot` e `Programação Orientada a Objetos (POO)`. Os códigos são testados com `JUnit 5` e seguem pelo menos um dos seguintes princípios: `SOLID`, `YAGNI`,  `DRY`, `KISS` e `Clean Code`.
 
 ## ⚙ Tech Stacks utilizadas:
 
