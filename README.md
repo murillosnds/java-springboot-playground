@@ -6,6 +6,7 @@
 
 ![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
 ![Junit Status](https://img.shields.io/badge/junit-passed-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## 📋 Objetivo do projeto 
 
