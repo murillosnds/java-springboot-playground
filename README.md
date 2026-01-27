@@ -24,6 +24,7 @@ O objetivo deste projeto é apresentar códigos organizados e simples para estud
 | --- | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | 📄  | Garrafa      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/demo/src/main/java/com/example/garrafa/Main.java)
 | 2   | 📄  | Garrafa - Testes unitários (JUNIT)      | [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/demo/src/test/java/com/example/garrafa/GarrafaTest.java)
+| 3   | 📄  | Televisão| [![Ver](https://img.shields.io/badge/VER-100000?style=for-the-badge&logo=VER&logoColor=white&labelColor=black&color=black)](https://github.com/murillosnds/java-springboot-playground/blob/main/demo/src/main/java/com/example/televisao/Main.java)
 
 ## 🚀 Como executar
 
