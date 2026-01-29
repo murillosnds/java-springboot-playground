@@ -43,24 +43,22 @@ class TV {
         return volume;
     }
     
-    public void ligar() {
+    public boolean ligar() {
         if (ligada) {
-            System.out.println("A televisão já está ligada.");
-            return;
+            return false;
         }
-        
-        System.out.println("A televisão foi ligada.");
+
         ligada = true;
+        return true;
     }
     
-    public void desligar() {
+    public boolean desligar() {
         if (!ligada) {
-            System.out.println("A televisão já está desligada.");
-            return;
+            return false;
         }
-        
-        System.out.println("A televisão foi desligada.");
+
         ligada = false;
+        return true;
     }
     
     // Especificações: hardware e características físicas.
@@ -68,37 +66,40 @@ class TV {
         System.out.printf("Especificações: Modelo: %s | tamanho: %.2f | tipo: %s | cor: %s.%n",
              modelo, tamanho, tipo, cor);
     }
+
+    public enum ResultadoVolume {
+    OK,
+    TV_DESLIGADA,
+    VOLUME_MAXIMO,
+    VOLUME_MINIMO
+    }
     
-    public void aumentarVolume() {
-        
+    public ResultadoVolume aumentarVolume() {
         if (!ligada) {
-            System.out.println("Televisão está desligada.");
-            return;
+            return ResultadoVolume.TV_DESLIGADA;
         }
         
         if (volume == VOLUME_MAX) {
-            System.out.println("O volume já está no máximo.");
-            return;
+            return ResultadoVolume.VOLUME_MAXIMO;
         }
         
         volume++;
-        System.out.println("Volume atual: " + volume);
+        return ResultadoVolume.OK;
+        
     }
     
-    public void diminuirVolume() {
+    public ResultadoVolume diminuirVolume() {
         
         if (!ligada) {
-            System.out.println("Televisão está desligada.");
-            return;
+            return ResultadoVolume.TV_DESLIGADA;
         }
         
         if (volume == VOLUME_MIN) {
-            System.out.println("O volume já está no mínimo.");
-            return;
+            return ResultadoVolume.VOLUME_MINIMO;
         }
         
         volume--;
-        System.out.println("Volume atual: " + volume);
+        return ResultadoVolume.OK;
     }
 }
 
@@ -106,9 +107,44 @@ public class Main {
     public static void main(String[] args) {
         TV televisao = new TV();
         televisao.verEspecificacoes();
-        televisao.ligar();
-        televisao.diminuirVolume();
-        televisao.aumentarVolume();
-        televisao.desligar();
+
+        if (televisao.ligar()) {
+            System.out.println("Televisão ligada.");
+        } else {
+            System.out.println("Televisão já está ligada.");
+        }
+
+        switch (televisao.aumentarVolume()) {
+            case OK:
+                System.out.printf("Volume atual: %d%n", televisao.getVolume());
+                break;
+            case TV_DESLIGADA:
+                System.out.println("Televisão está desligada.");
+                break;
+            case VOLUME_MAXIMO:
+                System.out.println("Televisão já está no volume máximo.");
+            default:
+                break;
+        }
+        
+        switch (televisao.diminuirVolume()) {
+            case OK:
+                System.out.printf("Volume atual: %d%n", televisao.getVolume());
+                break;
+            case TV_DESLIGADA:
+                System.out.println("Televisão está desligada.");
+                break;
+            case VOLUME_MINIMO:
+                System.out.println("Televisão já está no volume mínimo.");
+                break;
+            default:
+                break;
+        }
+
+        if (televisao.desligar()) {
+            System.out.println("Televisão desligada.");
+        } else {
+            System.out.println("Televisão já está desligada.");
+        }
     }
 }
