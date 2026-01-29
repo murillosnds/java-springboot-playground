@@ -62,8 +62,8 @@ class TV {
     }
     
     // Especificações: hardware e características físicas.
-    public void verEspecificacoes() {
-        System.out.printf("Especificações: Modelo: %s | tamanho: %.2f | tipo: %s | cor: %s.%n",
+    public String verEspecificacoes() {
+        return String.format("Especificações: Modelo: %s | tamanho: %.2f | tipo: %s | cor: %s.",
              modelo, tamanho, tipo, cor);
     }
 
@@ -106,7 +106,7 @@ class TV {
 public class Main {
     public static void main(String[] args) {
         TV televisao = new TV();
-        televisao.verEspecificacoes();
+        System.out.println(televisao.verEspecificacoes());
 
         if (televisao.ligar()) {
             System.out.println("Televisão ligada.");
