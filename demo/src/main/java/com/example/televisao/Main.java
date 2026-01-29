@@ -60,12 +60,6 @@ class TV {
         ligada = false;
         return true;
     }
-    
-    // Especificações: hardware e características físicas.
-    public String verEspecificacoes() {
-        return String.format("Especificações: Modelo: %s | tamanho: %.2f | tipo: %s | cor: %s.",
-             modelo, tamanho, tipo, cor);
-    }
 
     public enum ResultadoVolume {
     OK,
@@ -103,10 +97,24 @@ class TV {
     }
 }
 
+class TVEspecificacoes {
+
+    // Especificações: hardware e características físicas.
+    public static String formatarEspecificacoes(TV tv) {
+        return String.format(
+            "Especificações: Modelo: %s | tamanho: %.2f | tipo: %s | cor: %s.",
+            tv.getModelo(),
+            tv.getTamanho(),
+            tv.getTipo(),
+            tv.getCor()
+        );
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
         TV televisao = new TV();
-        System.out.println(televisao.verEspecificacoes());
+        System.out.println(TVEspecificacoes.formatarEspecificacoes(televisao));
 
         if (televisao.ligar()) {
             System.out.println("Televisão ligada.");
