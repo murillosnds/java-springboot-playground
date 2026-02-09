@@ -4,8 +4,9 @@
 
 > 👨🏻‍💻 **Feito por: Murillo Sergio**
 
-![Java Version](https://img.shields.io/badge/java-17ﾠ|ﾠ25-black)
-![Junit Status](https://img.shields.io/badge/junit-passed-brightgreen)
+![Java Version](https://img.shields.io/badge/java-17-brightgreen)
+![Spring Boot](https://img.shields.io/badge/springboot-4.0.2-brightgreen)
+![Junit Status](https://img.shields.io/badge/junit-5-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## 📋 Objetivo do projeto 
@@ -14,7 +15,7 @@ O objetivo deste projeto é apresentar códigos organizados e simples para estud
 
 ## ⚙ Tech Stacks utilizadas:
 
-- **Java (versão 17 - 25)**;
+- **Java (versão 17)**;
 - **Spring Boot**;
 - **JUnit 5 (testes unitários)**.
 
